@@ -45,7 +45,6 @@ def receive():
 
             elif message.startswith('NICK_UPDATE:'):
                 nickname = message.removeprefix('NICK_UPDATE:')
-
             else:
                 print(message)
 
